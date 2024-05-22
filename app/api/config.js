@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://muchbackendwork.nomoredomainswork.ru/api';
+export const BASE_URL = 'https://muchbackendwork.nomoredomainswork.ru/api';
 
 export const endpoints = {
   games: `${BASE_URL}/games`,
