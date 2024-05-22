@@ -11,5 +11,6 @@ export const useGetDataByCategory = (endpoint, category) => {
     fetchData()
   }, [])
   
-  return isResponseOk(data) ? data : null // Я ЭТО РЕШИЛ ПОХОДУ АХАХАХАХАХ
+  return isResponseOk(data) ? data : null ;
+  // return isResponseOk(data) ? data : null // Я ЭТО РЕШИЛ ПОХОДУ АХАХАХАХАХ
 }
